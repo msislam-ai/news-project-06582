@@ -7,7 +7,7 @@ dotenv.config();
 const app = express();
 
 // Enable CORS for frontend
-app.use(cors({ origin: "http://localhost:3000" }));
+app.use(cors({ origin: "http://localhost:3000", 'https://news-project-06582-frontend.vercel.app' }));
 app.use(express.json());
 
 // Routes
