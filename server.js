@@ -10,7 +10,8 @@ const app = express();
 app.use(cors({
   origin: [
     "http://localhost:3000",
-    "https://news-project-06582-frontend.vercel.app"
+    "https://news-project-06582-frontend.vercel.app",
+    "https://j34vsk-5173.csb.app",
   ]
 }));
 
